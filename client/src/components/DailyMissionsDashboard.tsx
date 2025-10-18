@@ -10,7 +10,7 @@
  */
 
 import React, { useEffect, useState } from 'react';
-import { trpc } from '../client';
+import { trpc } from '@/lib/trpc';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 import { Progress } from './ui/progress';
