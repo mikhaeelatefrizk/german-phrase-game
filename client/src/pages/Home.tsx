@@ -17,7 +17,9 @@ export default function Home() {
   const [sessionPhrasesCompleted, setSessionPhrasesCompleted] = useState<string[]>([]);
   const [currentPhraseAnswered, setCurrentPhraseAnswered] = useState(false);
   const [answerCorrect, setAnswerCorrect] = useState<boolean | null>(null);
-  const [activeTab, setActiveTab] = useState<'practice' | 'missions' | 'spaced-rep' | 'chatbot'>('practice');
+  const [activeTab, setActiveTab] = useState<
+    "practice" | "missions" | "spaced-rep" | "chatbot"
+  >("practice");
 
   // Text-to-speech hook
   const { speak } = useSpeech({
@@ -61,10 +63,10 @@ export default function Home() {
 
   const handleNextPhrase = () => {
     if (!currentPhrase) return;
-    
+
     // Mark this phrase as completed in this session
     setSessionPhrasesCompleted([...sessionPhrasesCompleted, currentPhrase.id]);
-    
+
     // Reset states for next phrase
     setIsFlipped(false);
     setCurrentPhraseAnswered(false);
@@ -105,7 +107,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-900 p-4">
-
       {/* Header */}
       <div className="max-w-6xl mx-auto mb-8">
         <div className="flex justify-between items-center mb-4">
@@ -152,18 +153,23 @@ export default function Home() {
             <div
               className="bg-gradient-to-r from-green-500 to-green-600 h-3 rounded-full transition-all duration-300"
               style={{
-                width: todaysTotal > 0 ? `${(todaysCompleted / todaysTotal) * 100}%` : "0%",
+                width:
+                  todaysTotal > 0
+                    ? `${(todaysCompleted / todaysTotal) * 100}%`
+                    : "0%",
               }}
             />
           </div>
           {isTodaysSessionComplete && (
             <p className="text-green-400 text-sm font-semibold mt-2 flex items-center gap-2">
-              <CheckCircle size={16} /> Today's session complete! You can exit now.
+              <CheckCircle size={16} /> Today's session complete! You can exit
+              now.
             </p>
           )}
           {!isTodaysSessionComplete && todaysTotal > 0 && (
             <p className="text-yellow-400 text-sm font-semibold mt-2 flex items-center gap-2">
-              <Lock size={16} /> Complete all {todaysTotal} phrases before exiting
+              <Lock size={16} /> Complete all {todaysTotal} phrases before
+              exiting
             </p>
           )}
         </div>
@@ -173,41 +179,41 @@ export default function Home() {
       <div className="max-w-6xl mx-auto mb-6">
         <div className="flex gap-2 border-b border-gray-700">
           <button
-            onClick={() => setActiveTab('practice')}
+            onClick={() => setActiveTab("practice")}
             className={`px-4 py-2 font-semibold transition-colors ${
-              activeTab === 'practice'
-                ? 'text-blue-400 border-b-2 border-blue-400'
-                : 'text-gray-400 hover:text-gray-300'
+              activeTab === "practice"
+                ? "text-blue-400 border-b-2 border-blue-400"
+                : "text-gray-400 hover:text-gray-300"
             }`}
           >
             Practice
           </button>
           <button
-            onClick={() => setActiveTab('missions')}
+            onClick={() => setActiveTab("missions")}
             className={`px-4 py-2 font-semibold transition-colors ${
-              activeTab === 'missions'
-                ? 'text-blue-400 border-b-2 border-blue-400'
-                : 'text-gray-400 hover:text-gray-300'
+              activeTab === "missions"
+                ? "text-blue-400 border-b-2 border-blue-400"
+                : "text-gray-400 hover:text-gray-300"
             }`}
           >
             Daily Missions
           </button>
           <button
-            onClick={() => setActiveTab('spaced-rep')}
+            onClick={() => setActiveTab("spaced-rep")}
             className={`px-4 py-2 font-semibold transition-colors ${
-              activeTab === 'spaced-rep'
-                ? 'text-blue-400 border-b-2 border-blue-400'
-                : 'text-gray-400 hover:text-gray-300'
+              activeTab === "spaced-rep"
+                ? "text-blue-400 border-b-2 border-blue-400"
+                : "text-gray-400 hover:text-gray-300"
             }`}
           >
             Spaced Repetition
           </button>
           <button
-            onClick={() => setActiveTab('chatbot')}
+            onClick={() => setActiveTab("chatbot")}
             className={`px-4 py-2 font-semibold transition-colors ${
-              activeTab === 'chatbot'
-                ? 'text-blue-400 border-b-2 border-blue-400'
-                : 'text-gray-400 hover:text-gray-300'
+              activeTab === "chatbot"
+                ? "text-blue-400 border-b-2 border-blue-400"
+                : "text-gray-400 hover:text-gray-300"
             }`}
           >
             AI Chatbot
@@ -216,146 +222,152 @@ export default function Home() {
       </div>
 
       {/* Content Based on Active Tab */}
-      {activeTab === 'practice' && (
+      {activeTab === "practice" && (
         <div className="max-w-2xl mx-auto">
-        {currentPhrase ? (
-          <div>
-            {/* Flashcard */}
-            <div
-              onClick={() => setIsFlipped(!isFlipped)}
-              className="bg-gray-800 rounded-2xl shadow-2xl p-8 min-h-96 flex flex-col items-center justify-center cursor-pointer hover:shadow-3xl transition-shadow mb-8 relative overflow-hidden border border-gray-700"
-            >
-              {/* Decorative background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900 opacity-50" />
+          {currentPhrase ? (
+            <div>
+              {/* Flashcard */}
+              <div
+                onClick={() => setIsFlipped(!isFlipped)}
+                className="bg-gray-800 rounded-2xl shadow-2xl p-8 min-h-96 flex flex-col items-center justify-center cursor-pointer hover:shadow-3xl transition-shadow mb-8 relative overflow-hidden border border-gray-700"
+              >
+                {/* Decorative background */}
+                <div className="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900 opacity-50" />
 
-              <div className="relative z-10 text-center">
-                {!isFlipped ? (
-                  <>
-                    <p className="text-gray-400 text-sm font-semibold mb-4 uppercase tracking-widest">
-                      German
-                    </p>
-                    <p className="text-5xl font-bold text-white mb-8 leading-relaxed">
-                      {currentPhrase.german}
-                    </p>
-                    <div className="flex justify-center gap-4">
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          speak(currentPhrase.german);
-                        }}
-                        className="bg-blue-600 hover:bg-blue-700 text-white rounded-full p-4 transition-colors"
-                        title="Pronounce"
-                      >
-                        <Volume2 size={24} />
-                      </button>
-                    </div>
-                    <p className="text-gray-500 text-sm mt-8">
-                      Tap card to reveal answer
-                    </p>
-                  </>
-                ) : (
-                  <>
-                    <p className="text-gray-400 text-sm font-semibold mb-4 uppercase tracking-widest">
-                      English
-                    </p>
-                    <p className="text-4xl font-bold text-green-400 mb-8 leading-relaxed">
-                      {currentPhrase.english}
-                    </p>
-                    <p className="text-gray-500 text-sm">
-                      Tap card to hide answer
-                    </p>
-                  </>
-                )}
+                <div className="relative z-10 text-center">
+                  {!isFlipped ? (
+                    <>
+                      <p className="text-gray-400 text-sm font-semibold mb-4 uppercase tracking-widest">
+                        German
+                      </p>
+                      <p className="text-5xl font-bold text-white mb-8 leading-relaxed">
+                        {currentPhrase.german}
+                      </p>
+                      <div className="flex justify-center gap-4">
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            speak(currentPhrase.german);
+                          }}
+                          className="bg-blue-600 hover:bg-blue-700 text-white rounded-full p-4 transition-colors"
+                          title="Pronounce"
+                        >
+                          <Volume2 size={24} />
+                        </button>
+                      </div>
+                      <p className="text-gray-500 text-sm mt-8">
+                        Tap card to reveal answer
+                      </p>
+                    </>
+                  ) : (
+                    <>
+                      <p className="text-gray-400 text-sm font-semibold mb-4 uppercase tracking-widest">
+                        English
+                      </p>
+                      <p className="text-4xl font-bold text-green-400 mb-8 leading-relaxed">
+                        {currentPhrase.english}
+                      </p>
+                      <p className="text-gray-500 text-sm">
+                        Tap card to hide answer
+                      </p>
+                    </>
+                  )}
+                </div>
               </div>
-            </div>
 
-            {/* Action Buttons - Only show after flipping */}
-            {isFlipped && !currentPhraseAnswered && (
-              <div className="flex gap-4 mb-8">
-                <Button
-                  onClick={() => handleAnswer(false)}
-                  className="flex-1 py-6 text-lg font-bold bg-red-900 hover:bg-red-800 text-white border border-red-700"
-                  disabled={recordAnswerMutation.isPending}
-                >
-                  Forgot
-                </Button>
-                <Button
-                  onClick={() => handleAnswer(true)}
-                  className="flex-1 py-6 text-lg font-bold bg-green-700 hover:bg-green-600 text-white border border-green-600"
-                  disabled={recordAnswerMutation.isPending}
-                >
-                  Got It
-                </Button>
-              </div>
-            )}
+              {/* Action Buttons - Only show after flipping */}
+              {isFlipped && !currentPhraseAnswered && (
+                <div className="flex gap-4 mb-8">
+                  <Button
+                    onClick={() => handleAnswer(false)}
+                    className="flex-1 py-6 text-lg font-bold bg-red-900 hover:bg-red-800 text-white border border-red-700"
+                    disabled={recordAnswerMutation.isPending}
+                  >
+                    Forgot
+                  </Button>
+                  <Button
+                    onClick={() => handleAnswer(true)}
+                    className="flex-1 py-6 text-lg font-bold bg-green-700 hover:bg-green-600 text-white border border-green-600"
+                    disabled={recordAnswerMutation.isPending}
+                  >
+                    Got It
+                  </Button>
+                </div>
+              )}
 
-            {/* Next Button - Only show after answering */}
-            {currentPhraseAnswered && (
-              <div className="mb-8">
-                <div className="mb-4 p-4 bg-gray-800 rounded-lg border border-gray-700">
-                  <p className={`text-center font-semibold text-lg ${answerCorrect ? "text-green-400" : "text-red-400"}`}>
-                    {answerCorrect ? "✓ Correct!" : "✗ Incorrect"}
+              {/* Next Button - Only show after answering */}
+              {currentPhraseAnswered && (
+                <div className="mb-8">
+                  <div className="mb-4 p-4 bg-gray-800 rounded-lg border border-gray-700">
+                    <p
+                      className={`text-center font-semibold text-lg ${
+                        answerCorrect ? "text-green-400" : "text-red-400"
+                      }`}
+                    >
+                      {answerCorrect ? "✓ Correct!" : "✗ Incorrect"}
+                    </p>
+                  </div>
+                  <Button
+                    onClick={handleNextPhrase}
+                    className="w-full py-6 text-lg font-bold bg-blue-600 hover:bg-blue-700 text-white border border-blue-500 flex items-center justify-center gap-2"
+                  >
+                    Next Phrase
+                    <ChevronRight size={24} />
+                  </Button>
+                </div>
+              )}
+
+              {/* Stats */}
+              <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
+                <div className="bg-gray-800 rounded-lg shadow p-4 text-center border border-gray-700">
+                  <p className="text-gray-400 text-sm font-semibold">Learned</p>
+                  <p className="text-3xl font-bold text-blue-400">
+                    {stats?.learned || 0}
                   </p>
                 </div>
-                <Button
-                  onClick={handleNextPhrase}
-                  className="w-full py-6 text-lg font-bold bg-blue-600 hover:bg-blue-700 text-white border border-blue-500 flex items-center justify-center gap-2"
-                >
-                  Next Phrase
-                  <ChevronRight size={24} />
-                </Button>
-              </div>
-            )}
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
-              <div className="bg-gray-800 rounded-lg shadow p-4 text-center border border-gray-700">
-                <p className="text-gray-400 text-sm font-semibold">Learned</p>
-                <p className="text-3xl font-bold text-blue-400">
-                  {stats?.learned || 0}
-                </p>
-              </div>
-              <div className="bg-gray-800 rounded-lg shadow p-4 text-center border border-gray-700">
-                <p className="text-gray-400 text-sm font-semibold">Accuracy</p>
-                <p className="text-3xl font-bold text-blue-400">
-                  {stats?.accuracy ? Math.round(stats.accuracy) : 0}%
-                </p>
-              </div>
-              <div className="bg-gray-800 rounded-lg shadow p-4 text-center border border-gray-700">
-                <p className="text-gray-400 text-sm font-semibold">Total</p>
-                <p className="text-3xl font-bold text-blue-400">
-                  {totalPhrases}
-                </p>
+                <div className="bg-gray-800 rounded-lg shadow p-4 text-center border border-gray-700">
+                  <p className="text-gray-400 text-sm font-semibold">Accuracy</p>
+                  <p className="text-3xl font-bold text-blue-400">
+                    {stats?.accuracy ? Math.round(stats.accuracy) : 0}%
+                  </p>
+                </div>
+                <div className="bg-gray-800 rounded-lg shadow p-4 text-center border border-gray-700">
+                  <p className="text-gray-400 text-sm font-semibold">Total</p>
+                  <p className="text-3xl font-bold text-blue-400">
+                    {totalPhrases}
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        ) : isTodaysSessionComplete ? (
-          <div className="bg-gray-800 rounded-2xl shadow-2xl p-12 text-center border border-gray-700">
-            <CheckCircle size={64} className="mx-auto mb-4 text-green-400" />
-            <p className="text-green-400 text-2xl font-bold mb-4">
-              Today's Session Complete!
-            </p>
-            <p className="text-gray-300 mb-8">
-              You have successfully completed all {todaysTotal} phrases for today.
-              Great job! Come back tomorrow for more.
-            </p>
-            <Button
-              onClick={() => logout()}
-              className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 text-lg"
-            >
-              Exit & Logout
-            </Button>
-          </div>
-        ) : (
-          <div className="bg-gray-800 rounded-2xl shadow-2xl p-12 text-center border border-gray-700">
-            <p className="text-gray-400 text-lg">Loading today's phrases...</p>
-          </div>
-        )}
+          ) : isTodaysSessionComplete ? (
+            <div className="bg-gray-800 rounded-2xl shadow-2xl p-12 text-center border border-gray-700">
+              <CheckCircle size={64} className="mx-auto mb-4 text-green-400" />
+              <p className="text-green-400 text-2xl font-bold mb-4">
+                Today's Session Complete!
+              </p>
+              <p className="text-gray-300 mb-8">
+                You have successfully completed all {todaysTotal} phrases for
+                today. Great job! Come back tomorrow for more.
+              </p>
+              <Button
+                onClick={() => logout()}
+                className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 text-lg"
+              >
+                Exit & Logout
+              </Button>
+            </div>
+          ) : (
+            <div className="bg-gray-800 rounded-2xl shadow-2xl p-12 text-center border border-gray-700">
+              <p className="text-gray-400 text-lg">
+                Loading today's phrases...
+              </p>
+            </div>
+          )}
         </div>
       )}
 
       {/* Daily Missions Tab */}
-      {activeTab === 'missions' && (
+      {activeTab === "missions" && (
         <div className="max-w-6xl mx-auto">
           <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700">
             <DailyMissionsDashboard />
@@ -364,7 +376,7 @@ export default function Home() {
       )}
 
       {/* Spaced Repetition Tab */}
-      {activeTab === 'spaced-rep' && (
+      {activeTab === "spaced-rep" && (
         <div className="max-w-6xl mx-auto">
           <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700">
             <SpacedRepetitionCard />
@@ -373,13 +385,20 @@ export default function Home() {
       )}
 
       {/* AI Chatbot Tab */}
-      {activeTab === 'chatbot' && (
+      {activeTab === "chatbot" && (
         <div className="max-w-6xl mx-auto">
-          <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700" style={{ minHeight: '600px' }}>
-            <EnhancedChatbot topic="German vocabulary learning" difficulty="intermediate" />
+          <div
+            className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700"
+            style={{ minHeight: "600px" }}
+          >
+            <EnhancedChatbot
+              topic="German vocabulary learning"
+              difficulty="intermediate"
+            />
           </div>
         </div>
       )}
     </div>
   );
+}
 
