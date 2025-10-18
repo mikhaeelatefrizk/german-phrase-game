@@ -2,7 +2,7 @@ import { getDb } from "./db";
 import { phrases, userProgress, studySessions, learningAnalytics, mistakes } from "../drizzle/schema";
 import { eq, and, desc, sql } from "drizzle-orm";
 import { invokeLLM } from "./_core/llm";
-import { TOTAL_PHRASES } from "../../shared/const";
+import { TOTAL_PHRASES } from "../client/src/shared/const";
 /**
  * Get comprehensive user context for AI chatbot with deep analytics
  */
