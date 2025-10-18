@@ -5,7 +5,10 @@ import { useState, useEffect } from "react";
 import { getLoginUrl } from "@/const";
 import { TOTAL_PHRASES } from "../shared/const";
 import AIChatbot from "@/components/AIChatbot.tsx";
-import { Volume2, ChevronRight, Lock, CheckCircle } from "lucide-react";
+import { EnhancedChatbot } from "@/components/EnhancedChatbot";
+import { DailyMissionsDashboard } from "@/components/DailyMissionsDashboard";
+import { SpacedRepetitionCard } from "@/components/SpacedRepetitionCard";
+import { Volume2, ChevronRight, Lock, CheckCircle, Tabs } from "lucide-react";
 import { useAuth } from "@/_core/hooks/useAuth";
 
 export default function Home() {
@@ -14,6 +17,7 @@ export default function Home() {
   const [sessionPhrasesCompleted, setSessionPhrasesCompleted] = useState<string[]>([]);
   const [currentPhraseAnswered, setCurrentPhraseAnswered] = useState(false);
   const [answerCorrect, setAnswerCorrect] = useState<boolean | null>(null);
+  const [activeTab, setActiveTab] = useState<'practice' | 'missions' | 'spaced-rep' | 'chatbot'>('practice');
 
   // Text-to-speech hook
   const { speak } = useSpeech({
@@ -101,10 +105,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-900 p-4">
-      <AIChatbot phraseId={currentPhrase?.id} />
 
       {/* Header */}
-      <div className="max-w-2xl mx-auto mb-8">
+      <div className="max-w-6xl mx-auto mb-8">
         <div className="flex justify-between items-center mb-4">
           <h1 className="text-3xl font-bold text-white">German Phrases</h1>
           <Button
@@ -166,8 +169,55 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Flashcard Container */}
-      <div className="max-w-2xl mx-auto">
+      {/* Tab Navigation */}
+      <div className="max-w-6xl mx-auto mb-6">
+        <div className="flex gap-2 border-b border-gray-700">
+          <button
+            onClick={() => setActiveTab('practice')}
+            className={`px-4 py-2 font-semibold transition-colors ${
+              activeTab === 'practice'
+                ? 'text-blue-400 border-b-2 border-blue-400'
+                : 'text-gray-400 hover:text-gray-300'
+            }`}
+          >
+            Practice
+          </button>
+          <button
+            onClick={() => setActiveTab('missions')}
+            className={`px-4 py-2 font-semibold transition-colors ${
+              activeTab === 'missions'
+                ? 'text-blue-400 border-b-2 border-blue-400'
+                : 'text-gray-400 hover:text-gray-300'
+            }`}
+          >
+            Daily Missions
+          </button>
+          <button
+            onClick={() => setActiveTab('spaced-rep')}
+            className={`px-4 py-2 font-semibold transition-colors ${
+              activeTab === 'spaced-rep'
+                ? 'text-blue-400 border-b-2 border-blue-400'
+                : 'text-gray-400 hover:text-gray-300'
+            }`}
+          >
+            Spaced Repetition
+          </button>
+          <button
+            onClick={() => setActiveTab('chatbot')}
+            className={`px-4 py-2 font-semibold transition-colors ${
+              activeTab === 'chatbot'
+                ? 'text-blue-400 border-b-2 border-blue-400'
+                : 'text-gray-400 hover:text-gray-300'
+            }`}
+          >
+            AI Chatbot
+          </button>
+        </div>
+      </div>
+
+      {/* Content Based on Active Tab */}
+      {activeTab === 'practice' && (
+        <div className="max-w-2xl mx-auto">
         {currentPhrase ? (
           <div>
             {/* Flashcard */}
@@ -301,9 +351,36 @@ export default function Home() {
             <p className="text-gray-400 text-lg">Loading today's phrases...</p>
           </div>
         )}
-      </div>
+        </div>
+      )}
+
+      {/* Daily Missions Tab */}
+      {activeTab === 'missions' && (
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700">
+            <DailyMissionsDashboard />
+          </div>
+        </div>
+      )}
+
+      {/* Spaced Repetition Tab */}
+      {activeTab === 'spaced-rep' && (
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700">
+            <SpacedRepetitionCard />
+          </div>
+        </div>
+      )}
+
+      {/* AI Chatbot Tab */}
+      {activeTab === 'chatbot' && (
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-gray-800 rounded-2xl shadow-2xl p-8 border border-gray-700" style={{ minHeight: '600px' }}>
+            <EnhancedChatbot topic="German vocabulary learning" difficulty="intermediate" />
+          </div>
+        </div>
+      )}
     </div>
   );
-}
 
 // Dummy commit to trigger rebuild
