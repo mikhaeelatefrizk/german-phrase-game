@@ -4,11 +4,6 @@ import react from "@vitejs/plugin-react";
 import fs from "node:fs";
 import path from "path";
 import { defineConfig } from "vite";
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
 
@@ -19,7 +14,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(__dirname, "shared"),
+      "@shared": path.resolve(import.meta.dirname, "..", "shared"),
       "@assets": path.resolve(import.meta.dirname, "attached_assets"),
     },
   },
