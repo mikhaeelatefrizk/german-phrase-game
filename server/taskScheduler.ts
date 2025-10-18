@@ -1,5 +1,5 @@
 import { getDb } from "./db";
-import { phrases, userProgress, dailyTasks, studySessions, learningAnalytics } from "../../drizzle/schema";
+import { phrases, userProgress, dailyTasks, studySessions, learningAnalytics } from "../drizzle/schema";
 import { eq, and, gte, lte, sql } from "drizzle-orm";
 
 /**
