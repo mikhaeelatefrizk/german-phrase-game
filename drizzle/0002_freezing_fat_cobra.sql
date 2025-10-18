@@ -1,0 +1,1 @@
+ALTER TABLE `phrases` ADD `pronunciation` text NOT NULL;

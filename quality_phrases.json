@@ -1,0 +1,3698 @@
+[
+  {
+    "german": "Ich möchte ein Ticket nach Berlin buchen.",
+    "english": "I would like to book a ticket to Berlin.",
+    "id": "1",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche eine Fahrkarte für zwei Personen.",
+    "english": "I need a ticket for two people.",
+    "id": "2",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir einen Flug empfehlen?",
+    "english": "Can you recommend a flight?",
+    "id": "3",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Fensterplatz.",
+    "english": "I would like a window seat.",
+    "id": "4",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bevorzuge einen Aisle-Platz.",
+    "english": "I prefer an aisle seat.",
+    "id": "5",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Rollstuhlplatz.",
+    "english": "I need a wheelchair seat.",
+    "id": "6",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein Upgrade geben?",
+    "english": "Can you give me an upgrade?",
+    "id": "7",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Hin- und Rückflugticket.",
+    "english": "I want a round-trip ticket.",
+    "id": "8",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Direktflug?",
+    "english": "Is there a direct flight?",
+    "id": "9",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist der Flug?",
+    "english": "How long is the flight?",
+    "id": "10",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich mein Ticket online buchen?",
+    "english": "Can I book my ticket online?",
+    "id": "11",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte mein Ticket ändern.",
+    "english": "I want to change my ticket.",
+    "id": "12",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich mein Ticket stornieren?",
+    "english": "Can I cancel my ticket?",
+    "id": "13",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein Ersatzticket.",
+    "english": "I need a replacement ticket.",
+    "id": "14",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir eine Bestätigung geben?",
+    "english": "Can you give me a confirmation?",
+    "id": "15",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe mein Ticket verloren.",
+    "english": "I lost my ticket.",
+    "id": "16",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein neues Ticket geben?",
+    "english": "Can you give me a new ticket?",
+    "id": "17",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte mein Ticket zurückgeben.",
+    "english": "I want to return my ticket.",
+    "id": "18",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Bekomme ich mein Geld zurück?",
+    "english": "Do I get my money back?",
+    "id": "19",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Ticket für morgen.",
+    "english": "I want a ticket for tomorrow.",
+    "id": "20",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann fährt der nächste Zug?",
+    "english": "When does the next train depart?",
+    "id": "21",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange dauert die Fahrt?",
+    "english": "How long does the journey take?",
+    "id": "22",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann kommt der Bus an?",
+    "english": "When does the bus arrive?",
+    "id": "23",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen früheren Flug?",
+    "english": "Is there an earlier flight?",
+    "id": "24",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Der Zug hat Verspätung.",
+    "english": "The train is delayed.",
+    "id": "25",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann ist die Abfahrtszeit?",
+    "english": "What is the departure time?",
+    "id": "26",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann ist die Ankunftszeit?",
+    "english": "What is the arrival time?",
+    "id": "27",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie oft fährt der Bus?",
+    "english": "How often does the bus run?",
+    "id": "28",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Fährt der Zug auch nachts?",
+    "english": "Does the train run at night?",
+    "id": "29",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Nachtflug?",
+    "english": "Is there a night flight?",
+    "id": "30",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel kostet eine Fahrkarte?",
+    "english": "How much does a ticket cost?",
+    "id": "31",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Rabatt für Kinder?",
+    "english": "Is there a discount for children?",
+    "id": "32",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Ermäßigung für Studenten?",
+    "english": "Is there a discount for students?",
+    "id": "33",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich mit Karte zahlen?",
+    "english": "Can I pay by card?",
+    "id": "34",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Kreditkarten?",
+    "english": "Do you accept credit cards?",
+    "id": "35",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel kostet ein Upgrade?",
+    "english": "How much does an upgrade cost?",
+    "id": "36",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Gruppentarif?",
+    "english": "Is there a group rate?",
+    "id": "37",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich online buchen?",
+    "english": "Can I book online?",
+    "id": "38",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel kostet die Reservierungsgebühr?",
+    "english": "How much is the reservation fee?",
+    "id": "39",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Rückerstattung?",
+    "english": "Is there a refund?",
+    "id": "40",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Fensterplatz im Flugzeug.",
+    "english": "I would like a window seat on the plane.",
+    "id": "41",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Hin- und Rückflugticket.",
+    "english": "I want a round-trip ticket.",
+    "id": "42",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Direktflug?",
+    "english": "Is there a direct flight?",
+    "id": "43",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist der Flug?",
+    "english": "How long is the flight?",
+    "id": "44",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Flug am Wochenende.",
+    "english": "I want a flight on the weekend.",
+    "id": "45",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Flug unter der Woche?",
+    "english": "Is there a flight during the week?",
+    "id": "46",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Flug mit Umstieg.",
+    "english": "I need a connecting flight.",
+    "id": "47",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bevorzuge einen Direktflug.",
+    "english": "I prefer a direct flight.",
+    "id": "48",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viele Zwischenstopps gibt es?",
+    "english": "How many stopovers are there?",
+    "id": "49",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist die Umsteigezeit?",
+    "english": "How long is the connection time?",
+    "id": "50",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte eine Reiseversicherung.",
+    "english": "I want travel insurance.",
+    "id": "51",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Reiseversicherung?",
+    "english": "Is there travel insurance?",
+    "id": "52",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Visum.",
+    "english": "I want a visa.",
+    "id": "53",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Brauche ich ein Visum?",
+    "english": "Do I need a visa?",
+    "id": "54",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange dauert die Visabearbeitung?",
+    "english": "How long does visa processing take?",
+    "id": "55",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Pass.",
+    "english": "I need a passport.",
+    "id": "56",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Pass ist abgelaufen.",
+    "english": "My passport has expired.",
+    "id": "57",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen neuen Pass.",
+    "english": "I need a new passport.",
+    "id": "58",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo kann ich einen Pass beantragen?",
+    "english": "Where can I apply for a passport?",
+    "id": "59",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist ein Pass gültig?",
+    "english": "How long is a passport valid?",
+    "id": "60",
+    "category": "Travel & Transportation",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Zimmer buchen.",
+    "english": "I would like to book a room.",
+    "id": "61",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Doppelzimmer frei?",
+    "english": "Do you have a double room available?",
+    "id": "62",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein Einzelzimmer.",
+    "english": "I need a single room.",
+    "id": "63",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein Zimmer für drei Nächte.",
+    "english": "I need a room for three nights.",
+    "id": "64",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Balkon?",
+    "english": "Do you have a room with a balcony?",
+    "id": "65",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein ruhiges Zimmer.",
+    "english": "I want a quiet room.",
+    "id": "66",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Meerblick?",
+    "english": "Do you have a room with a sea view?",
+    "id": "67",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein behindertengerechtes Zimmer.",
+    "english": "I need a wheelchair-accessible room.",
+    "id": "68",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Klimaanlage?",
+    "english": "Do you have a room with air conditioning?",
+    "id": "69",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein Zimmer mit Heizung.",
+    "english": "I need a room with heating.",
+    "id": "70",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Kamin?",
+    "english": "Do you have a room with a fireplace?",
+    "id": "71",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Jacuzzi?",
+    "english": "Do you have a room with a Jacuzzi?",
+    "id": "72",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Sauna?",
+    "english": "Do you have a room with a sauna?",
+    "id": "73",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Whirlpool?",
+    "english": "Do you have a room with a hot tub?",
+    "id": "74",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Terrasse?",
+    "english": "Do you have a room with a terrace?",
+    "id": "75",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Garten?",
+    "english": "Do you have a room with a garden?",
+    "id": "76",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Küche?",
+    "english": "Do you have a room with a kitchen?",
+    "id": "77",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Wohnzimmer?",
+    "english": "Do you have a room with a living room?",
+    "id": "78",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Essbereich?",
+    "english": "Do you have a room with a dining area?",
+    "id": "79",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Schlafzimmer?",
+    "english": "Do you have a room with a bedroom?",
+    "id": "80",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Badezimmer?",
+    "english": "Do you have a room with a bathroom?",
+    "id": "81",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Dusche?",
+    "english": "Do you have a room with a shower?",
+    "id": "82",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Badewanne?",
+    "english": "Do you have a room with a bathtub?",
+    "id": "83",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Bidet?",
+    "english": "Do you have a room with a bidet?",
+    "id": "84",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Toilette?",
+    "english": "Do you have a room with a toilet?",
+    "id": "85",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Waschbecken?",
+    "english": "Do you have a room with a sink?",
+    "id": "86",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Spiegel?",
+    "english": "Do you have a room with a mirror?",
+    "id": "87",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Beleuchtung?",
+    "english": "Do you have a room with lighting?",
+    "id": "88",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Fenster?",
+    "english": "Do you have a room with a window?",
+    "id": "89",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie ein Zimmer mit Tür?",
+    "english": "Do you have a room with a door?",
+    "id": "90",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel kostet das Zimmer pro Nacht?",
+    "english": "How much does the room cost per night?",
+    "id": "91",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Rabatt für längere Aufenthalte?",
+    "english": "Is there a discount for longer stays?",
+    "id": "92",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Frühstück inbegriffen?",
+    "english": "Is breakfast included?",
+    "id": "93",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Parkplatz?",
+    "english": "Is there parking?",
+    "id": "94",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Aufzug?",
+    "english": "Is there an elevator?",
+    "id": "95",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Swimmingpool?",
+    "english": "Is there a swimming pool?",
+    "id": "96",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Fitnessraum?",
+    "english": "Is there a gym?",
+    "id": "97",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es ein Restaurant?",
+    "english": "Is there a restaurant?",
+    "id": "98",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Bar?",
+    "english": "Is there a bar?",
+    "id": "99",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Nachtclub?",
+    "english": "Is there a nightclub?",
+    "id": "100",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Spa?",
+    "english": "Is there a spa?",
+    "id": "101",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Concierge-Service?",
+    "english": "Is there a concierge service?",
+    "id": "102",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen 24-Stunden-Zimmerservice?",
+    "english": "Is there 24-hour room service?",
+    "id": "103",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Wäscheservice?",
+    "english": "Is there a laundry service?",
+    "id": "104",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Babysitting-Service?",
+    "english": "Is there a babysitting service?",
+    "id": "105",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Shuttle-Service?",
+    "english": "Is there a shuttle service?",
+    "id": "106",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Flughafen-Transfer?",
+    "english": "Is there an airport transfer?",
+    "id": "107",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Mietwagen-Service?",
+    "english": "Is there a car rental service?",
+    "id": "108",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Tourenführer-Service?",
+    "english": "Is there a tour guide service?",
+    "id": "109",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Ticketservice?",
+    "english": "Is there a ticket service?",
+    "id": "110",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Reservierungsservice?",
+    "english": "Is there a reservation service?",
+    "id": "111",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Übersetzungsservice?",
+    "english": "Is there a translation service?",
+    "id": "112",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Geschäftsservice?",
+    "english": "Is there a business service?",
+    "id": "113",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Konferenzraum?",
+    "english": "Is there a conference room?",
+    "id": "114",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Meetingraum?",
+    "english": "Is there a meeting room?",
+    "id": "115",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Veranstaltungsraum?",
+    "english": "Is there an event room?",
+    "id": "116",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Banketttraum?",
+    "english": "Is there a banquet room?",
+    "id": "117",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Hochzeitssaal?",
+    "english": "Is there a wedding hall?",
+    "id": "118",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Ballsaal?",
+    "english": "Is there a ballroom?",
+    "id": "119",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Theatersaal?",
+    "english": "Is there a theater hall?",
+    "id": "120",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Kinosaal?",
+    "english": "Is there a cinema hall?",
+    "id": "121",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Spielzimmer?",
+    "english": "Is there a game room?",
+    "id": "122",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Billardtisch?",
+    "english": "Is there a billiard table?",
+    "id": "123",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Dartautomaten?",
+    "english": "Is there a dart machine?",
+    "id": "124",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Karaoke-Raum?",
+    "english": "Is there a karaoke room?",
+    "id": "125",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Musikraum?",
+    "english": "Is there a music room?",
+    "id": "126",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Tanzraum?",
+    "english": "Is there a dance room?",
+    "id": "127",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Yogaraum?",
+    "english": "Is there a yoga room?",
+    "id": "128",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Meditationsraum?",
+    "english": "Is there a meditation room?",
+    "id": "129",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Gebetsraum?",
+    "english": "Is there a prayer room?",
+    "id": "130",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Raucherbereich?",
+    "english": "Is there a smoking area?",
+    "id": "131",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Hotel rauchfrei?",
+    "english": "Is the hotel smoke-free?",
+    "id": "132",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Haustier-freundlichen Bereich?",
+    "english": "Is there a pet-friendly area?",
+    "id": "133",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Sind Haustiere erlaubt?",
+    "english": "Are pets allowed?",
+    "id": "134",
+    "category": "Accommodation & Housing",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Tisch reservieren.",
+    "english": "I would like to reserve a table.",
+    "id": "135",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Tisch für vier Personen.",
+    "english": "I would like a table for four people.",
+    "id": "136",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie einen Tisch frei?",
+    "english": "Do you have a table available?",
+    "id": "137",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Tisch am Fenster.",
+    "english": "I would like a table by the window.",
+    "id": "138",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Tisch in der Ecke.",
+    "english": "I would like a table in the corner.",
+    "id": "139",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen ruhigen Tisch.",
+    "english": "I would like a quiet table.",
+    "id": "140",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie einen Hochstuhl für das Baby?",
+    "english": "Do you have a high chair for the baby?",
+    "id": "141",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Kinderstuhl.",
+    "english": "I need a children's chair.",
+    "id": "142",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist die Wartezeit?",
+    "english": "How long is the waiting time?",
+    "id": "143",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie uns einen Tisch geben?",
+    "english": "Can you give us a table?",
+    "id": "144",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wir haben eine Reservierung.",
+    "english": "We have a reservation.",
+    "id": "145",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Unter welchem Namen?",
+    "english": "Under what name?",
+    "id": "146",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Meine Reservierungsnummer ist...",
+    "english": "My reservation number is...",
+    "id": "147",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe online reserviert.",
+    "english": "I reserved online.",
+    "id": "148",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe per Telefon reserviert.",
+    "english": "I reserved by phone.",
+    "id": "149",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe persönlich reserviert.",
+    "english": "I reserved in person.",
+    "id": "150",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie uns einen anderen Tisch geben?",
+    "english": "Can you give us another table?",
+    "id": "151",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Dieser Tisch ist nicht gut.",
+    "english": "This table is not good.",
+    "id": "152",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Dieser Tisch ist zu klein.",
+    "english": "This table is too small.",
+    "id": "153",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Dieser Tisch ist zu groß.",
+    "english": "This table is too big.",
+    "id": "154",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Vegetarier.",
+    "english": "I am a vegetarian.",
+    "id": "155",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Veganer.",
+    "english": "I am a vegan.",
+    "id": "156",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Nüsse.",
+    "english": "I am allergic to nuts.",
+    "id": "157",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Fisch.",
+    "english": "I am allergic to fish.",
+    "id": "158",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Gluten.",
+    "english": "I am allergic to gluten.",
+    "id": "159",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Milch.",
+    "english": "I am allergic to dairy.",
+    "id": "160",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Eier.",
+    "english": "I am allergic to eggs.",
+    "id": "161",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Erdnüsse.",
+    "english": "I am allergic to peanuts.",
+    "id": "162",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Soja.",
+    "english": "I am allergic to soy.",
+    "id": "163",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin allergisch gegen Sesam.",
+    "english": "I am allergic to sesame.",
+    "id": "164",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Schweinefleisch.",
+    "english": "I don't eat pork.",
+    "id": "165",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Rindfleisch.",
+    "english": "I don't eat beef.",
+    "id": "166",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Geflügel.",
+    "english": "I don't eat poultry.",
+    "id": "167",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Meeresfrüchte.",
+    "english": "I don't eat seafood.",
+    "id": "168",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Fisch.",
+    "english": "I don't eat fish.",
+    "id": "169",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Lamm.",
+    "english": "I don't eat lamb.",
+    "id": "170",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Kaninchen.",
+    "english": "I don't eat rabbit.",
+    "id": "171",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Wild.",
+    "english": "I don't eat game.",
+    "id": "172",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Innereien.",
+    "english": "I don't eat offal.",
+    "id": "173",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse kein Insekten.",
+    "english": "I don't eat insects.",
+    "id": "174",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir die Speisekarte geben?",
+    "english": "Can you give me the menu?",
+    "id": "175",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Was empfehlen Sie?",
+    "english": "What do you recommend?",
+    "id": "176",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Was ist das Spezialitätenessen?",
+    "english": "What is the specialty dish?",
+    "id": "177",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Was ist das Tagesgericht?",
+    "english": "What is the daily special?",
+    "id": "178",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein vegetarisches Gericht empfehlen?",
+    "english": "Can you recommend a vegetarian dish?",
+    "id": "179",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein veganes Gericht empfehlen?",
+    "english": "Can you recommend a vegan dish?",
+    "id": "180",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein glutenfreies Gericht empfehlen?",
+    "english": "Can you recommend a gluten-free dish?",
+    "id": "181",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein laktosefreies Gericht empfehlen?",
+    "english": "Can you recommend a lactose-free dish?",
+    "id": "182",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein zuckerfreies Gericht empfehlen?",
+    "english": "Can you recommend a sugar-free dish?",
+    "id": "183",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein salzarmes Gericht empfehlen?",
+    "english": "Can you recommend a low-salt dish?",
+    "id": "184",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein fettarmes Gericht empfehlen?",
+    "english": "Can you recommend a low-fat dish?",
+    "id": "185",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein kalorienarmes Gericht empfehlen?",
+    "english": "Can you recommend a low-calorie dish?",
+    "id": "186",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein proteinreiches Gericht empfehlen?",
+    "english": "Can you recommend a protein-rich dish?",
+    "id": "187",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir ein kohlenhydratarmes Gericht empfehlen?",
+    "english": "Can you recommend a low-carb dish?",
+    "id": "188",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist das Fleisch zubereitet?",
+    "english": "How is the meat prepared?",
+    "id": "189",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist der Fisch zubereitet?",
+    "english": "How is the fish prepared?",
+    "id": "190",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist das Gemüse zubereitet?",
+    "english": "How is the vegetable prepared?",
+    "id": "191",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist die Sauce zubereitet?",
+    "english": "How is the sauce prepared?",
+    "id": "192",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist die Beilage zubereitet?",
+    "english": "How is the side dish prepared?",
+    "id": "193",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Gericht scharf?",
+    "english": "Is the dish spicy?",
+    "id": "194",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Gericht süß?",
+    "english": "Is the dish sweet?",
+    "id": "195",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Gericht sauer?",
+    "english": "Is the dish sour?",
+    "id": "196",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Gericht bitter?",
+    "english": "Is the dish bitter?",
+    "id": "197",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Gericht salzig?",
+    "english": "Is the dish salty?",
+    "id": "198",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das Gericht umami?",
+    "english": "Is the dish umami?",
+    "id": "199",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Welche Saucen haben Sie?",
+    "english": "What sauces do you have?",
+    "id": "200",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Welche Dressings haben Sie?",
+    "english": "What dressings do you have?",
+    "id": "201",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Welche Marinaden haben Sie?",
+    "english": "What marinades do you have?",
+    "id": "202",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Beilagen?",
+    "english": "Are there side dishes?",
+    "id": "203",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Vorspeisen?",
+    "english": "Are there appetizers?",
+    "id": "204",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Hauptgänge?",
+    "english": "Are there main courses?",
+    "id": "205",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Nachspeisen?",
+    "english": "Are there desserts?",
+    "id": "206",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Bringen Sie mir die Rechnung.",
+    "english": "Bring me the bill.",
+    "id": "207",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir die Rechnung geben?",
+    "english": "Can you give me the bill?",
+    "id": "208",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich mit Karte zahlen?",
+    "english": "Can I pay by card?",
+    "id": "209",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Kreditkarten?",
+    "english": "Do you accept credit cards?",
+    "id": "210",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das Essen ist zu kalt.",
+    "english": "The food is too cold.",
+    "id": "211",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das Essen ist zu heiß.",
+    "english": "The food is too hot.",
+    "id": "212",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das Essen schmeckt nicht.",
+    "english": "The food doesn't taste good.",
+    "id": "213",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das Essen ist verdorben.",
+    "english": "The food is spoiled.",
+    "id": "214",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das Essen ist versalzen.",
+    "english": "The food is too salty.",
+    "id": "215",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Wasser.",
+    "english": "I want a water.",
+    "id": "216",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Kaffee.",
+    "english": "I want a coffee.",
+    "id": "217",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Tee.",
+    "english": "I want a tea.",
+    "id": "218",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Saft.",
+    "english": "I want a juice.",
+    "id": "219",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Bier.",
+    "english": "I want a beer.",
+    "id": "220",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Wein.",
+    "english": "I want a wine.",
+    "id": "221",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Cocktail.",
+    "english": "I want a cocktail.",
+    "id": "222",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Smoothie.",
+    "english": "I want a smoothie.",
+    "id": "223",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Milchshake.",
+    "english": "I want a milkshake.",
+    "id": "224",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Eiskaffee.",
+    "english": "I want an iced coffee.",
+    "id": "225",
+    "category": "Food & Restaurants",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel kostet das?",
+    "english": "How much does this cost?",
+    "id": "226",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das ist zu teuer.",
+    "english": "That is too expensive.",
+    "id": "227",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie etwas Billigeres?",
+    "english": "Do you have something cheaper?",
+    "id": "228",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich das anprobieren?",
+    "english": "Can I try this on?",
+    "id": "229",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist die Umkleidekabine?",
+    "english": "Where is the fitting room?",
+    "id": "230",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das passt mir nicht.",
+    "english": "This doesn't fit me.",
+    "id": "231",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie eine andere Größe?",
+    "english": "Do you have another size?",
+    "id": "232",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie eine andere Farbe?",
+    "english": "Do you have another color?",
+    "id": "233",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte das zurückgeben.",
+    "english": "I want to return this.",
+    "id": "234",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich mein Geld zurückbekommen?",
+    "english": "Can I get my money back?",
+    "id": "235",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Garantie?",
+    "english": "Is there a warranty?",
+    "id": "236",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist die Rückgabefrist?",
+    "english": "How long is the return period?",
+    "id": "237",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir einen Rabatt geben?",
+    "english": "Can you give me a discount?",
+    "id": "238",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Ausverkauf?",
+    "english": "Is there a sale?",
+    "id": "239",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte mit Karte zahlen.",
+    "english": "I want to pay by card.",
+    "id": "240",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Kreditkarten?",
+    "english": "Do you accept credit cards?",
+    "id": "241",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe kein Bargeld.",
+    "english": "I don't have cash.",
+    "id": "242",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir einen Kassenbeleg geben?",
+    "english": "Can you give me a receipt?",
+    "id": "243",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist der Geldautomat?",
+    "english": "Where is the ATM?",
+    "id": "244",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte Geld abheben.",
+    "english": "I want to withdraw money.",
+    "id": "245",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist der Wechselkurs?",
+    "english": "What is the exchange rate?",
+    "id": "246",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte Geld wechseln.",
+    "english": "I want to exchange money.",
+    "id": "247",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist die Bank?",
+    "english": "Where is the bank?",
+    "id": "248",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte ein Bankkonto eröffnen.",
+    "english": "I want to open a bank account.",
+    "id": "249",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie hoch sind die Gebühren?",
+    "english": "How high are the fees?",
+    "id": "250",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Kredit aufnehmen.",
+    "english": "I want to take out a loan.",
+    "id": "251",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist der Zinssatz?",
+    "english": "What is the interest rate?",
+    "id": "252",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe meine Karte verloren.",
+    "english": "I lost my card.",
+    "id": "253",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte meine Karte sperren.",
+    "english": "I want to block my card.",
+    "id": "254",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir eine neue Karte geben?",
+    "english": "Can you give me a new card?",
+    "id": "255",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich suche ein Geschenk.",
+    "english": "I am looking for a gift.",
+    "id": "256",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir helfen?",
+    "english": "Can you help me?",
+    "id": "257",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das ist zu groß.",
+    "english": "This is too big.",
+    "id": "258",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das ist zu klein.",
+    "english": "This is too small.",
+    "id": "259",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Rot?",
+    "english": "Do you have this in red?",
+    "id": "260",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Blau?",
+    "english": "Do you have this in blue?",
+    "id": "261",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Schwarz?",
+    "english": "Do you have this in black?",
+    "id": "262",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Weiß?",
+    "english": "Do you have this in white?",
+    "id": "263",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Grün?",
+    "english": "Do you have this in green?",
+    "id": "264",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Gelb?",
+    "english": "Do you have this in yellow?",
+    "id": "265",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Größe M?",
+    "english": "Do you have this in size M?",
+    "id": "266",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Haben Sie das in Größe L?",
+    "english": "Do you have this in size L?",
+    "id": "267",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte das umtauschen.",
+    "english": "I want to exchange this.",
+    "id": "268",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das ist defekt.",
+    "english": "This is defective.",
+    "id": "269",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das ist beschädigt.",
+    "english": "This is damaged.",
+    "id": "270",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Das funktioniert nicht.",
+    "english": "This doesn't work.",
+    "id": "271",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir einen Ersatz geben?",
+    "english": "Can you give me a replacement?",
+    "id": "272",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Rabatt?",
+    "english": "Is there a discount?",
+    "id": "273",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Studentenrabatt?",
+    "english": "Is there a student discount?",
+    "id": "274",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Seniorenrabatt?",
+    "english": "Is there a senior discount?",
+    "id": "275",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Rabatt für Mitglieder?",
+    "english": "Is there a member discount?",
+    "id": "276",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Rabatt für Großmengen?",
+    "english": "Is there a bulk discount?",
+    "id": "277",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel Prozent Rabatt?",
+    "english": "What percentage discount?",
+    "id": "278",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Coupon?",
+    "english": "Is there a coupon?",
+    "id": "279",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Promotion?",
+    "english": "Is there a promotion?",
+    "id": "280",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Debitkarten?",
+    "english": "Do you accept debit cards?",
+    "id": "281",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Bargeld?",
+    "english": "Do you accept cash?",
+    "id": "282",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Schecks?",
+    "english": "Do you accept checks?",
+    "id": "283",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Akzeptieren Sie Handy-Zahlung?",
+    "english": "Do you accept mobile payment?",
+    "id": "284",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich in Raten zahlen?",
+    "english": "Can I pay in installments?",
+    "id": "285",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es eine Zahlungsplan?",
+    "english": "Is there a payment plan?",
+    "id": "286",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte Geld einzahlen.",
+    "english": "I want to deposit money.",
+    "id": "287",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte Geld überweisen.",
+    "english": "I want to transfer money.",
+    "id": "288",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Scheck ausstellen.",
+    "english": "I want to write a check.",
+    "id": "289",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte einen Scheck einlösen.",
+    "english": "I want to cash a check.",
+    "id": "290",
+    "category": "Shopping & Money",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich suche einen Job.",
+    "english": "I am looking for a job.",
+    "id": "291",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin arbeitslos.",
+    "english": "I am unemployed.",
+    "id": "292",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte mich bewerben.",
+    "english": "I would like to apply.",
+    "id": "293",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Können Sie mir den Job beschreiben?",
+    "english": "Can you describe the job to me?",
+    "id": "294",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Was sind die Anforderungen?",
+    "english": "What are the requirements?",
+    "id": "295",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Welche Qualifikationen brauche ich?",
+    "english": "What qualifications do I need?",
+    "id": "296",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel Erfahrung brauche ich?",
+    "english": "How much experience do I need?",
+    "id": "297",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Aufstiegsmöglichkeiten?",
+    "english": "Are there opportunities for advancement?",
+    "id": "298",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das ein Vollzeitjob?",
+    "english": "Is this a full-time job?",
+    "id": "299",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ist das ein Teilzeitjob?",
+    "english": "Is this a part-time job?",
+    "id": "300",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Ingenieur.",
+    "english": "I am an engineer.",
+    "id": "301",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Lehrer.",
+    "english": "I am a teacher.",
+    "id": "302",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Arzt.",
+    "english": "I am a doctor.",
+    "id": "303",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Anwalt.",
+    "english": "I am a lawyer.",
+    "id": "304",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Geschäftsführer.",
+    "english": "I am a manager.",
+    "id": "305",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Verkäufer.",
+    "english": "I am a salesman.",
+    "id": "306",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Sekretärin.",
+    "english": "I am a secretary.",
+    "id": "307",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Programmierer.",
+    "english": "I am a programmer.",
+    "id": "308",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Designer.",
+    "english": "I am a designer.",
+    "id": "309",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Künstler.",
+    "english": "I am an artist.",
+    "id": "310",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange arbeiten Sie hier?",
+    "english": "How long have you worked here?",
+    "id": "311",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe zehn Jahre Erfahrung.",
+    "english": "I have ten years of experience.",
+    "id": "312",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe fünf Jahre in diesem Bereich gearbeitet.",
+    "english": "I have worked in this field for five years.",
+    "id": "313",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin neu in diesem Bereich.",
+    "english": "I am new to this field.",
+    "id": "314",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe viel Erfahrung.",
+    "english": "I have a lot of experience.",
+    "id": "315",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin ein Experte.",
+    "english": "I am an expert.",
+    "id": "316",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Anfänger.",
+    "english": "I am a beginner.",
+    "id": "317",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe in verschiedenen Unternehmen gearbeitet.",
+    "english": "I have worked in various companies.",
+    "id": "318",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe international gearbeitet.",
+    "english": "I have worked internationally.",
+    "id": "319",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Führungserfahrung.",
+    "english": "I have management experience.",
+    "id": "320",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist das Gehalt?",
+    "english": "What is the salary?",
+    "id": "321",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Zusatzleistungen?",
+    "english": "Are there benefits?",
+    "id": "322",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Krankenversicherung?",
+    "english": "Is there health insurance?",
+    "id": "323",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Rentenversicherung?",
+    "english": "Is there pension insurance?",
+    "id": "324",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Bonusleistungen?",
+    "english": "Are there bonuses?",
+    "id": "325",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Aktienoptionen?",
+    "english": "Are there stock options?",
+    "id": "326",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viele Urlaubstage habe ich?",
+    "english": "How many vacation days do I have?",
+    "id": "327",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es flexible Arbeitszeiten?",
+    "english": "Are there flexible working hours?",
+    "id": "328",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich von zu Hause arbeiten?",
+    "english": "Can I work from home?",
+    "id": "329",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es einen Firmenwagen?",
+    "english": "Is there a company car?",
+    "id": "330",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist die Probezeit?",
+    "english": "How long is the trial period?",
+    "id": "331",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Arbeitsvertrag.",
+    "english": "I need an employment contract.",
+    "id": "332",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann kann ich anfangen?",
+    "english": "When can I start?",
+    "id": "333",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie lange ist die Kündigungsfrist?",
+    "english": "What is the notice period?",
+    "id": "334",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich den Vertrag sehen?",
+    "english": "Can I see the contract?",
+    "id": "335",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Nichtkonkurrenzklauseln?",
+    "english": "Are there non-compete clauses?",
+    "id": "336",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Geheimhaltungsklauseln?",
+    "english": "Are there confidentiality clauses?",
+    "id": "337",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich den Vertrag ändern?",
+    "english": "Can I change the contract?",
+    "id": "338",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich den Vertrag ablehnen?",
+    "english": "Can I decline the contract?",
+    "id": "339",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann bekomme ich mein erstes Gehalt?",
+    "english": "When do I get my first salary?",
+    "id": "340",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist mein Büro?",
+    "english": "Where is my office?",
+    "id": "341",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wer ist mein Chef?",
+    "english": "Who is my boss?",
+    "id": "342",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wer sind meine Kollegen?",
+    "english": "Who are my colleagues?",
+    "id": "343",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist das Arbeitsklima?",
+    "english": "What is the work environment like?",
+    "id": "344",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Teambuilding-Aktivitäten?",
+    "english": "Are there team building activities?",
+    "id": "345",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es regelmäßige Meetings?",
+    "english": "Are there regular meetings?",
+    "id": "346",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist die Kommunikation?",
+    "english": "How is the communication?",
+    "id": "347",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Schulungen?",
+    "english": "Are there trainings?",
+    "id": "348",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Mentoring?",
+    "english": "Is there mentoring?",
+    "id": "349",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie ist die Work-Life-Balance?",
+    "english": "What is the work-life balance?",
+    "id": "350",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte Urlaub nehmen.",
+    "english": "I want to take vacation.",
+    "id": "351",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin krank.",
+    "english": "I am sick.",
+    "id": "352",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche eine Krankmeldung.",
+    "english": "I need a sick note.",
+    "id": "353",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Tag frei.",
+    "english": "I need a day off.",
+    "id": "354",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich einen Tag frei nehmen?",
+    "english": "Can I take a day off?",
+    "id": "355",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche Elternzeit.",
+    "english": "I need parental leave.",
+    "id": "356",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche Betreuungsurlaub.",
+    "english": "I need care leave.",
+    "id": "357",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche Trauerurlaub.",
+    "english": "I need bereavement leave.",
+    "id": "358",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Gibt es Sabbatical?",
+    "english": "Is there a sabbatical?",
+    "id": "359",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich unbezahlten Urlaub nehmen?",
+    "english": "Can I take unpaid leave?",
+    "id": "360",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich möchte kündigen.",
+    "english": "I want to resign.",
+    "id": "361",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin entlassen worden.",
+    "english": "I was fired.",
+    "id": "362",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin gekündigt worden.",
+    "english": "I was terminated.",
+    "id": "363",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe eine Abfindung bekommen.",
+    "english": "I received a severance package.",
+    "id": "364",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein Arbeitszeugnis.",
+    "english": "I need a work certificate.",
+    "id": "365",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche eine Kündigungsbestätigung.",
+    "english": "I need a termination confirmation.",
+    "id": "366",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann ist mein letzter Arbeitstag?",
+    "english": "When is my last day of work?",
+    "id": "367",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich meine Sachen abholen?",
+    "english": "Can I pick up my things?",
+    "id": "368",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Bekomme ich mein Abschlussgeld?",
+    "english": "Do I get my final payment?",
+    "id": "369",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich Arbeitslosengeld beantragen?",
+    "english": "Can I apply for unemployment benefits?",
+    "id": "370",
+    "category": "Work & Career",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin krank.",
+    "english": "I am sick.",
+    "id": "371",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Kopfschmerzen.",
+    "english": "I have a headache.",
+    "id": "372",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Bauchschmerzen.",
+    "english": "I have a stomachache.",
+    "id": "373",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Halsschmerzen.",
+    "english": "I have a sore throat.",
+    "id": "374",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Fieber.",
+    "english": "I have a fever.",
+    "id": "375",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Husten.",
+    "english": "I have a cough.",
+    "id": "376",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Schnupfen.",
+    "english": "I have a cold.",
+    "id": "377",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Grippe.",
+    "english": "I have the flu.",
+    "id": "378",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Allergien.",
+    "english": "I have allergies.",
+    "id": "379",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Asthma.",
+    "english": "I have asthma.",
+    "id": "380",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Diabetes.",
+    "english": "I have diabetes.",
+    "id": "381",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Bluthochdruck.",
+    "english": "I have high blood pressure.",
+    "id": "382",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Migräne.",
+    "english": "I have migraines.",
+    "id": "383",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Rückenschmerzen.",
+    "english": "I have back pain.",
+    "id": "384",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Gelenkschmerzen.",
+    "english": "I have joint pain.",
+    "id": "385",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin verletzt.",
+    "english": "I am injured.",
+    "id": "386",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe mich geschnitten.",
+    "english": "I cut myself.",
+    "id": "387",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe mich verbrannt.",
+    "english": "I burned myself.",
+    "id": "388",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin gestürzt.",
+    "english": "I fell.",
+    "id": "389",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe einen Knochenbruch.",
+    "english": "I have a broken bone.",
+    "id": "390",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Arzt.",
+    "english": "I need a doctor.",
+    "id": "391",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Zahnarzt.",
+    "english": "I need a dentist.",
+    "id": "392",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Augenarzt.",
+    "english": "I need an eye doctor.",
+    "id": "393",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Therapeuten.",
+    "english": "I need a therapist.",
+    "id": "394",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Psychologen.",
+    "english": "I need a psychologist.",
+    "id": "395",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist das nächste Krankenhaus?",
+    "english": "Where is the nearest hospital?",
+    "id": "396",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist die nächste Apotheke?",
+    "english": "Where is the nearest pharmacy?",
+    "id": "397",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wo ist die nächste Arztpraxis?",
+    "english": "Where is the nearest doctor's office?",
+    "id": "398",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Termin.",
+    "english": "I need an appointment.",
+    "id": "399",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wann kann ich einen Termin bekommen?",
+    "english": "When can I get an appointment?",
+    "id": "400",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche Medikamente.",
+    "english": "I need medication.",
+    "id": "401",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche ein Rezept.",
+    "english": "I need a prescription.",
+    "id": "402",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche eine Impfung.",
+    "english": "I need a vaccination.",
+    "id": "403",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Bluttest.",
+    "english": "I need a blood test.",
+    "id": "404",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Röntgen.",
+    "english": "I need an X-ray.",
+    "id": "405",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche einen Ultraschall.",
+    "english": "I need an ultrasound.",
+    "id": "406",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche eine Operation.",
+    "english": "I need an operation.",
+    "id": "407",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche eine Rehabilitation.",
+    "english": "I need rehabilitation.",
+    "id": "408",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich brauche Krankenversicherung.",
+    "english": "I need health insurance.",
+    "id": "409",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich habe Versicherung.",
+    "english": "I have insurance.",
+    "id": "410",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Meine Versicherung deckt das.",
+    "english": "My insurance covers that.",
+    "id": "411",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Meine Versicherung deckt das nicht.",
+    "english": "My insurance doesn't cover that.",
+    "id": "412",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Wie viel kostet die Behandlung?",
+    "english": "How much does the treatment cost?",
+    "id": "413",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Kann ich die Rechnung später zahlen?",
+    "english": "Can I pay the bill later?",
+    "id": "414",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin schwanger.",
+    "english": "I am pregnant.",
+    "id": "415",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Mutter.",
+    "english": "I am a mother.",
+    "id": "416",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin Vater.",
+    "english": "I am a father.",
+    "id": "417",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind ist krank.",
+    "english": "My child is sick.",
+    "id": "418",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Fieber.",
+    "english": "My child has a fever.",
+    "id": "419",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Husten.",
+    "english": "My child has a cough.",
+    "id": "420",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Durchfall.",
+    "english": "My child has diarrhea.",
+    "id": "421",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Erbrechen.",
+    "english": "My child is vomiting.",
+    "id": "422",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Zahnschmerzen.",
+    "english": "My child has a toothache.",
+    "id": "423",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Ohrenschmerzen.",
+    "english": "My child has an earache.",
+    "id": "424",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Augenschmerzen.",
+    "english": "My child has eye pain.",
+    "id": "425",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Hautausschlag.",
+    "english": "My child has a rash.",
+    "id": "426",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Juckreiz.",
+    "english": "My child has itching.",
+    "id": "427",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Schwellungen.",
+    "english": "My child has swelling.",
+    "id": "428",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Blutungen.",
+    "english": "My child is bleeding.",
+    "id": "429",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind hat Verletzungen.",
+    "english": "My child has injuries.",
+    "id": "430",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht einen Arzt.",
+    "english": "My child needs a doctor.",
+    "id": "431",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht einen Zahnarzt.",
+    "english": "My child needs a dentist.",
+    "id": "432",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht Medikamente.",
+    "english": "My child needs medication.",
+    "id": "433",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht eine Impfung.",
+    "english": "My child needs a vaccination.",
+    "id": "434",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht einen Bluttest.",
+    "english": "My child needs a blood test.",
+    "id": "435",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht einen Röntgen.",
+    "english": "My child needs an X-ray.",
+    "id": "436",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht einen Ultraschall.",
+    "english": "My child needs an ultrasound.",
+    "id": "437",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht eine Operation.",
+    "english": "My child needs an operation.",
+    "id": "438",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Mein Kind braucht eine Rehabilitation.",
+    "english": "My child needs rehabilitation.",
+    "id": "439",
+    "category": "Health & Medical",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich wache um 7 Uhr auf.",
+    "english": "I wake up at 7 o'clock.",
+    "id": "440",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich dusche mich.",
+    "english": "I take a shower.",
+    "id": "441",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich ziehe mich an.",
+    "english": "I get dressed.",
+    "id": "442",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich frühstücke.",
+    "english": "I have breakfast.",
+    "id": "443",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe zur Arbeit.",
+    "english": "I go to work.",
+    "id": "444",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich arbeite.",
+    "english": "I work.",
+    "id": "445",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse zu Mittag.",
+    "english": "I have lunch.",
+    "id": "446",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich mache eine Pause.",
+    "english": "I take a break.",
+    "id": "447",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich arbeite weiter.",
+    "english": "I continue working.",
+    "id": "448",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe nach Hause.",
+    "english": "I go home.",
+    "id": "449",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich koche.",
+    "english": "I cook.",
+    "id": "450",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich esse zu Abend.",
+    "english": "I have dinner.",
+    "id": "451",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich räume auf.",
+    "english": "I clean up.",
+    "id": "452",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich schaue fern.",
+    "english": "I watch TV.",
+    "id": "453",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich lese.",
+    "english": "I read.",
+    "id": "454",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich schreibe.",
+    "english": "I write.",
+    "id": "455",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich telefoniere.",
+    "english": "I call.",
+    "id": "456",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich schreibe eine E-Mail.",
+    "english": "I write an email.",
+    "id": "457",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich surfe im Internet.",
+    "english": "I surf the internet.",
+    "id": "458",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich spiele Videospiele.",
+    "english": "I play video games.",
+    "id": "459",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich treffe Freunde.",
+    "english": "I meet friends.",
+    "id": "460",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe ins Kino.",
+    "english": "I go to the cinema.",
+    "id": "461",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe ins Theater.",
+    "english": "I go to the theater.",
+    "id": "462",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe ins Konzert.",
+    "english": "I go to the concert.",
+    "id": "463",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe ins Restaurant.",
+    "english": "I go to the restaurant.",
+    "id": "464",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe ins Fitnessstudio.",
+    "english": "I go to the gym.",
+    "id": "465",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich jogge.",
+    "english": "I jog.",
+    "id": "466",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich spiele Fußball.",
+    "english": "I play football.",
+    "id": "467",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich spiele Tennis.",
+    "english": "I play tennis.",
+    "id": "468",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich schwimme.",
+    "english": "I swim.",
+    "id": "469",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich fahre Fahrrad.",
+    "english": "I ride a bike.",
+    "id": "470",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich fahre Auto.",
+    "english": "I drive a car.",
+    "id": "471",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich fahre Zug.",
+    "english": "I take the train.",
+    "id": "472",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich fahre Bus.",
+    "english": "I take the bus.",
+    "id": "473",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich gehe zu Fuß.",
+    "english": "I walk.",
+    "id": "474",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich kaufe ein.",
+    "english": "I go shopping.",
+    "id": "475",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich wasche Wäsche.",
+    "english": "I do laundry.",
+    "id": "476",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich putze.",
+    "english": "I clean.",
+    "id": "477",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bügele.",
+    "english": "I iron.",
+    "id": "478",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich nähe.",
+    "english": "I sew.",
+    "id": "479",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich repariere.",
+    "english": "I repair.",
+    "id": "480",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich male.",
+    "english": "I paint.",
+    "id": "481",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich zeichne.",
+    "english": "I draw.",
+    "id": "482",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich fotografiere.",
+    "english": "I take photos.",
+    "id": "483",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich filme.",
+    "english": "I film.",
+    "id": "484",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich musiziere.",
+    "english": "I make music.",
+    "id": "485",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich singe.",
+    "english": "I sing.",
+    "id": "486",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich tanze.",
+    "english": "I dance.",
+    "id": "487",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich meditiere.",
+    "english": "I meditate.",
+    "id": "488",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich yoga.",
+    "english": "I do yoga.",
+    "id": "489",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich entspanne mich.",
+    "english": "I relax.",
+    "id": "490",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich schlafe.",
+    "english": "I sleep.",
+    "id": "491",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich träume.",
+    "english": "I dream.",
+    "id": "492",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich wache auf.",
+    "english": "I wake up.",
+    "id": "493",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin müde.",
+    "english": "I am tired.",
+    "id": "494",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin hungrig.",
+    "english": "I am hungry.",
+    "id": "495",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin durstig.",
+    "english": "I am thirsty.",
+    "id": "496",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin glücklich.",
+    "english": "I am happy.",
+    "id": "497",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin traurig.",
+    "english": "I am sad.",
+    "id": "498",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin wütend.",
+    "english": "I am angry.",
+    "id": "499",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin nervös.",
+    "english": "I am nervous.",
+    "id": "500",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin ängstlich.",
+    "english": "I am afraid.",
+    "id": "501",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin gelangweilt.",
+    "english": "I am bored.",
+    "id": "502",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin interessiert.",
+    "english": "I am interested.",
+    "id": "503",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin neugierig.",
+    "english": "I am curious.",
+    "id": "504",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin überrascht.",
+    "english": "I am surprised.",
+    "id": "505",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin enttäuscht.",
+    "english": "I am disappointed.",
+    "id": "506",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin verliebt.",
+    "english": "I am in love.",
+    "id": "507",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin verletzt.",
+    "english": "I am hurt.",
+    "id": "508",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin frustriert.",
+    "english": "I am frustrated.",
+    "id": "509",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin verwirrt.",
+    "english": "I am confused.",
+    "id": "510",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin sicher.",
+    "english": "I am sure.",
+    "id": "511",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin unsicher.",
+    "english": "I am unsure.",
+    "id": "512",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin stolz.",
+    "english": "I am proud.",
+    "id": "513",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin beschämt.",
+    "english": "I am ashamed.",
+    "id": "514",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin dankbar.",
+    "english": "I am grateful.",
+    "id": "515",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin schuldig.",
+    "english": "I am guilty.",
+    "id": "516",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin unschuldig.",
+    "english": "I am innocent.",
+    "id": "517",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin schuldig.",
+    "english": "I am guilty.",
+    "id": "518",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin verantwortlich.",
+    "english": "I am responsible.",
+    "id": "519",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin unverantwortlich.",
+    "english": "I am irresponsible.",
+    "id": "520",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin zuverlässig.",
+    "english": "I am reliable.",
+    "id": "521",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin unzuverlässig.",
+    "english": "I am unreliable.",
+    "id": "522",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin ehrlich.",
+    "english": "I am honest.",
+    "id": "523",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin unehrlich.",
+    "english": "I am dishonest.",
+    "id": "524",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin treu.",
+    "english": "I am faithful.",
+    "id": "525",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin untreu.",
+    "english": "I am unfaithful.",
+    "id": "526",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin loyal.",
+    "english": "I am loyal.",
+    "id": "527",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  },
+  {
+    "german": "Ich bin illoyal.",
+    "english": "I am disloyal.",
+    "id": "528",
+    "category": "Daily Life & Routines",
+    "difficulty": "intermediate"
+  }
+]
