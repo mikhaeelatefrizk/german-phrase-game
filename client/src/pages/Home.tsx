@@ -3,7 +3,7 @@ import { trpc } from "@/lib/trpc";
 import { useSpeech } from "@/hooks/useSpeech";
 import { useState, useEffect } from "react";
 import { getLoginUrl } from "@/const";
-import { TOTAL_PHRASES } from "@shared/const";
+import { TOTAL_PHRASES } from "./shared/const";
 import AIChatbot from "@/components/AIChatbot.tsx";
 import { Volume2, ChevronRight, Lock, CheckCircle } from "lucide-react";
 import { useAuth } from "@/_core/hooks/useAuth";
