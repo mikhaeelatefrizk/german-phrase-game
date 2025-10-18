@@ -19,9 +19,11 @@ import {
   getGrammarExplanation,
   getUserContext,
 } from "./chatbot";
+import { learningRouter } from "./routers/learning";
 
 export const appRouter = router({
   system: systemRouter,
+  advancedLearning: learningRouter,
 
   auth: router({
     me: publicProcedure.query((opts) => opts.ctx.user),
