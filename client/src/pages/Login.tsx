@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useRouter } from "wouter";
 import { useAuth } from "../hooks/useAuth";
 import "../styles/auth.css";
 
 export function LoginPage() {
-  const navigate = useNavigate();
+  const [, navigate] = useRouter();
   const { login, isLoading, error } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -78,9 +78,9 @@ export function LoginPage() {
         <div className="auth-footer">
           <p>
             Don't have an account?{" "}
-            <Link to="/register" className="auth-link">
+            <a href="/register" className="auth-link">
               Create one
-            </Link>
+            </a>
           </p>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useRouter } from "wouter";
 import { useAuth } from "../hooks/useAuth";
 import "../styles/auth.css";
 
 export function RegisterPage() {
-  const navigate = useNavigate();
+  const [, navigate] = useRouter();
   const { register, isLoading, error } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -130,9 +130,9 @@ export function RegisterPage() {
         <div className="auth-footer">
           <p>
             Already have an account?{" "}
-            <Link to="/login" className="auth-link">
+            <a href="/login" className="auth-link">
               Sign in
-            </Link>
+            </a>
           </p>
         </div>
       </div>
