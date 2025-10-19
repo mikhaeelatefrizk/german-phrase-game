@@ -29,62 +29,60 @@ export function useAuth() {
     const initializeAuth = async () => {
       const token = localStorage.getItem(TOKEN_STORAGE_KEY);
 
-      if (token) {
-        try {
-          // Verify token is still valid
-          const result = await trpc.auth.verifyToken.query({ token });
-
-          if (result.valid && result.userId) {
-            // Get user details
-            const session = await trpc.auth.getSession.query({ token });
-
-            if (session) {
-              setAuthState({
-                user: {
-                  userId: session.userId,
-                  email: session.email || "",
-                  name: session.name,
-                },
-                isLoading: false,
-                isAuthenticated: true,
-                error: null,
-              });
-            } else {
-              // Token invalid, clear storage
-              localStorage.removeItem(TOKEN_STORAGE_KEY);
-              setAuthState({
-                user: null,
-                isLoading: false,
-                isAuthenticated: false,
-                error: null,
-              });
-            }
-          } else {
-            // Token invalid, clear storage
-            localStorage.removeItem(TOKEN_STORAGE_KEY);
-            setAuthState({
-              user: null,
-              isLoading: false,
-              isAuthenticated: false,
-              error: null,
-            });
-          }
-        } catch (error) {
-          console.error("Auth initialization error:", error);
-          localStorage.removeItem(TOKEN_STORAGE_KEY);
-          setAuthState({
-            user: null,
-            isLoading: false,
-            isAuthenticated: false,
-            error: "Failed to initialize authentication",
-          });
-        }
-      } else {
+      if (!token) {
         setAuthState({
           user: null,
           isLoading: false,
           isAuthenticated: false,
           error: null,
+        });
+        return;
+      }
+
+      try {
+        const verifyResult = await trpc.auth.verifyToken.query({ token });
+
+        if (!verifyResult.valid || !verifyResult.userId) {
+          localStorage.removeItem(TOKEN_STORAGE_KEY);
+          setAuthState({
+            user: null,
+            isLoading: false,
+            isAuthenticated: false,
+            error: null,
+          });
+          return;
+        }
+
+        const session = await trpc.auth.getSession.query({ token });
+
+        if (session) {
+          setAuthState({
+            user: {
+              userId: session.userId,
+              email: session.email || "",
+              name: session.name,
+            },
+            isLoading: false,
+            isAuthenticated: true,
+            error: null,
+          });
+        } else {
+          localStorage.removeItem(TOKEN_STORAGE_KEY);
+          setAuthState({
+            user: null,
+            isLoading: false,
+            isAuthenticated: false,
+            error: null,
+          });
+        }
+      } catch (error) {
+        console.error("Auth initialization error:", error);
+        localStorage.removeItem(TOKEN_STORAGE_KEY);
+        setAuthState({
+          user: null,
+          isLoading: false,
+          isAuthenticated: false,
+          error: "Failed to initialize authentication",
         });
       }
     };
@@ -103,7 +101,6 @@ export function useAuth() {
           name,
         });
 
-        // Store token
         localStorage.setItem(TOKEN_STORAGE_KEY, result.token);
 
         setAuthState({
@@ -141,7 +138,6 @@ export function useAuth() {
         password,
       });
 
-      // Store token
       localStorage.setItem(TOKEN_STORAGE_KEY, result.token);
 
       setAuthState({
@@ -175,10 +171,9 @@ export function useAuth() {
       const token = localStorage.getItem(TOKEN_STORAGE_KEY);
 
       if (token) {
-        await trpc.auth.logout.mutate({ token });
+        // await trpc.auth.logout.mutate({ token }); // Logout is handled client-side by clearing token
       }
 
-      // Clear token
       localStorage.removeItem(TOKEN_STORAGE_KEY);
 
       setAuthState({
@@ -251,7 +246,6 @@ export function useAuth() {
         token,
       });
 
-      // Clear token
       localStorage.removeItem(TOKEN_STORAGE_KEY);
 
       setAuthState({
