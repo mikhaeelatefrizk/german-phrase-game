@@ -12,7 +12,7 @@ export const APP_ID = "german-phrase-game-app";
 
 export const getLoginUrl = () => {
   const oauthPortalUrl = OAUTH_PORTAL_URL;
-  console.log('oauthPortalUrl before URL constructor:', oauthPortalUrl);
+
   const appId = APP_ID;
   const redirectUri = `${window.location.origin}/api/oauth/callback`;
   const state = btoa(redirectUri);
