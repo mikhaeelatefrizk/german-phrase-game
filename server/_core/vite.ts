@@ -3,8 +3,8 @@ import fs from "fs";
 import { type Server } from "http";
 import { nanoid } from "nanoid";
 import path from "path";
-import { createServer as createViteServer } from "vite";
-import viteConfig from "../../vite.config";
+import { createServer as createViteServer, defineConfig } from "vite";
+// import viteConfig from "../../vite.config"; // Removed problematic import
 
 export async function setupVite(app: Express, server: Server) {
   const serverOptions = {
@@ -14,10 +14,29 @@ export async function setupVite(app: Express, server: Server) {
   };
 
   const vite = await createViteServer({
-    ...viteConfig,
+    // ...viteConfig, // Removed usage of non-existent viteConfig
     configFile: false,
     server: serverOptions,
     appType: "custom",
+    // Define a minimal Vite config directly here for the server's use
+    define: {
+      'import.meta.env.VITE_OAUTH_PORTAL_URL': JSON.stringify('https://oauth.manus.im'),
+      'import.meta.env.VITE_APP_ID': JSON.stringify('german-phrase-game-app'),
+    },
+    resolve: {
+      alias: {
+        "@": path.resolve(import.meta.dirname, "..", "..", "client", "src"),
+        "@shared": path.resolve(import.meta.dirname, "..", "..", "shared"),
+        "@assets": path.resolve(import.meta.dirname, "..", "..", "attached_assets"),
+      },
+    },
+    envDir: path.resolve(import.meta.dirname, "..", ".."),
+    root: path.resolve(import.meta.dirname, "..", "..", "client"),
+    publicDir: path.resolve(import.meta.dirname, "..", "..", "client", "public"),
+    build: {
+      outDir: path.resolve(import.meta.dirname, "..", "..", "dist", "public"),
+      emptyOutDir: true,
+    },
   });
 
   app.use(vite.middlewares);
@@ -65,3 +84,4 @@ export function serveStatic(app: Express) {
     res.sendFile(path.resolve(distPath, "index.html"));
   });
 }
+

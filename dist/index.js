@@ -2276,56 +2276,8 @@ async function createContext(opts) {
 import express from "express";
 import fs from "fs";
 import { nanoid } from "nanoid";
-import path2 from "path";
-import { createServer as createViteServer } from "vite";
-
-// vite.config.ts
-import { jsxLocPlugin } from "@builder.io/vite-plugin-jsx-loc";
-import tailwindcss from "@tailwindcss/vite";
-import react from "@vitejs/plugin-react";
 import path from "path";
-import { defineConfig } from "vite";
-import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
-var plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
-var vite_config_default = defineConfig({
-  define: {
-    "import.meta.env.VITE_OAUTH_PORTAL_URL": JSON.stringify("https://oauth.manus.im"),
-    "import.meta.env.VITE_APP_ID": JSON.stringify("german-phrase-game-app")
-  },
-  plugins,
-  resolve: {
-    alias: {
-      "@": path.resolve(import.meta.dirname, "client", "src"),
-      "@shared": path.resolve(import.meta.dirname, "..", "shared"),
-      "@assets": path.resolve(import.meta.dirname, "attached_assets")
-    }
-  },
-  envDir: path.resolve(import.meta.dirname),
-  root: path.resolve(import.meta.dirname, "client"),
-  publicDir: path.resolve(import.meta.dirname, "client", "public"),
-  build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
-    emptyOutDir: true
-  },
-  server: {
-    host: true,
-    allowedHosts: [
-      ".manuspre.computer",
-      ".manus.computer",
-      ".manus-asia.computer",
-      ".manuscomputer.ai",
-      ".manusvm.computer",
-      "localhost",
-      "127.0.0.1"
-    ],
-    fs: {
-      strict: true,
-      deny: ["**/.*"]
-    }
-  }
-});
-
-// server/_core/vite.ts
+import { createServer as createViteServer } from "vite";
 async function setupVite(app, server) {
   const serverOptions = {
     middlewareMode: true,
@@ -2333,16 +2285,35 @@ async function setupVite(app, server) {
     allowedHosts: true
   };
   const vite = await createViteServer({
-    ...vite_config_default,
+    // ...viteConfig, // Removed usage of non-existent viteConfig
     configFile: false,
     server: serverOptions,
-    appType: "custom"
+    appType: "custom",
+    // Define a minimal Vite config directly here for the server's use
+    define: {
+      "import.meta.env.VITE_OAUTH_PORTAL_URL": JSON.stringify("https://oauth.manus.im"),
+      "import.meta.env.VITE_APP_ID": JSON.stringify("german-phrase-game-app")
+    },
+    resolve: {
+      alias: {
+        "@": path.resolve(import.meta.dirname, "..", "..", "client", "src"),
+        "@shared": path.resolve(import.meta.dirname, "..", "..", "shared"),
+        "@assets": path.resolve(import.meta.dirname, "..", "..", "attached_assets")
+      }
+    },
+    envDir: path.resolve(import.meta.dirname, "..", ".."),
+    root: path.resolve(import.meta.dirname, "..", "..", "client"),
+    publicDir: path.resolve(import.meta.dirname, "..", "..", "client", "public"),
+    build: {
+      outDir: path.resolve(import.meta.dirname, "..", "..", "dist", "public"),
+      emptyOutDir: true
+    }
   });
   app.use(vite.middlewares);
   app.use("*", async (req, res, next) => {
     const url = req.originalUrl;
     try {
-      const clientTemplate = path2.resolve(
+      const clientTemplate = path.resolve(
         import.meta.dirname,
         "../..",
         "client",
@@ -2362,7 +2333,7 @@ async function setupVite(app, server) {
   });
 }
 function serveStatic(app) {
-  const distPath = process.env.NODE_ENV === "development" ? path2.resolve(import.meta.dirname, "../..", "dist", "public") : path2.resolve(import.meta.dirname, "public");
+  const distPath = process.env.NODE_ENV === "development" ? path.resolve(import.meta.dirname, "../..", "dist", "public") : path.resolve(import.meta.dirname, "public");
   if (!fs.existsSync(distPath)) {
     console.error(
       `Could not find the build directory: ${distPath}, make sure to build the client first`
@@ -2370,7 +2341,7 @@ function serveStatic(app) {
   }
   app.use(express.static(distPath));
   app.use("*", (_req, res) => {
-    res.sendFile(path2.resolve(distPath, "index.html"));
+    res.sendFile(path.resolve(distPath, "index.html"));
   });
 }
 
