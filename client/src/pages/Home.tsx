@@ -2,14 +2,14 @@ import { Button } from "@/components/ui/button";
 import { trpc } from "@/lib/trpc";
 import { useSpeech } from "@/hooks/useSpeech";
 import { useState, useEffect } from "react";
-import { getLoginUrl } from "@/const";
+
 import { TOTAL_PHRASES } from "../shared/const";
 import AIChatbot from "@/components/AIChatbot.tsx";
 import { EnhancedChatbot } from "@/components/EnhancedChatbot";
 import { DailyMissionsDashboard } from "@/components/DailyMissionsDashboard";
 import { SpacedRepetitionCard } from "@/components/SpacedRepetitionCard";
 import { Volume2, ChevronRight, Lock, CheckCircle, Tabs } from "lucide-react";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function Home() {
   const { user, isAuthenticated, logout } = useAuth();
@@ -95,11 +95,12 @@ export default function Home() {
             Master 4,000 German phrases with spaced repetition and AI assistance
           </p>
           <Button
-            onClick={() => (window.location.href = getLoginUrl())}
+            onClick={() => (window.location.href = "/login")}
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 text-lg"
           >
-            Sign In with Manus
+            Sign In
           </Button>
+          <p className="text-gray-300 mt-4">Don't have an account? <a href="/register" className="text-blue-400 hover:underline">Register here</a></p>
         </div>
       </div>
     );
@@ -119,6 +120,7 @@ export default function Home() {
           >
             Logout
           </Button>
+          <p className="text-gray-300 mt-4">Don't have an account? <a href="/register" className="text-blue-400 hover:underline">Register here</a></p>
         </div>
 
         {/* Overall Progress Bar */}
@@ -285,6 +287,7 @@ export default function Home() {
                   >
                     Forgot
                   </Button>
+          <p className="text-gray-300 mt-4">Don't have an account? <a href="/register" className="text-blue-400 hover:underline">Register here</a></p>
                   <Button
                     onClick={() => handleAnswer(true)}
                     className="flex-1 py-6 text-lg font-bold bg-green-700 hover:bg-green-600 text-white border border-green-600"
@@ -292,6 +295,7 @@ export default function Home() {
                   >
                     Got It
                   </Button>
+          <p className="text-gray-300 mt-4">Don't have an account? <a href="/register" className="text-blue-400 hover:underline">Register here</a></p>
                 </div>
               )}
 
@@ -314,6 +318,7 @@ export default function Home() {
                     Next Phrase
                     <ChevronRight size={24} />
                   </Button>
+          <p className="text-gray-300 mt-4">Don't have an account? <a href="/register" className="text-blue-400 hover:underline">Register here</a></p>
                 </div>
               )}
 
@@ -355,6 +360,7 @@ export default function Home() {
               >
                 Exit & Logout
               </Button>
+          <p className="text-gray-300 mt-4">Don't have an account? <a href="/register" className="text-blue-400 hover:underline">Register here</a></p>
             </div>
           ) : (
             <div className="bg-gray-800 rounded-2xl shadow-2xl p-12 text-center border border-gray-700">

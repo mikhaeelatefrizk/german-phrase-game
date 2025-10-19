@@ -1,10 +1,9 @@
-import { useAuth } from "@/_core/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { trpc } from "@/lib/trpc";
 import { useSpeech } from "@/hooks/useSpeech";
+import { useAuth } from "@/hooks/useAuth";
 import { useState, useEffect } from "react";
-import { getLoginUrl } from "@/const";
 
 export default function TodaysWork() {
   const { user, isAuthenticated } = useAuth();
@@ -74,7 +73,7 @@ export default function TodaysWork() {
           <p className="text-gray-600 mb-8 text-lg">
             Sign in to see your personalized daily learning tasks
           </p>
-          <a href={getLoginUrl()}>
+          <a href="/login">
             <Button size="lg" className="w-full">
               Sign In
             </Button>

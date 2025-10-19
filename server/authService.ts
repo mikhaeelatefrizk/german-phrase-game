@@ -1,6 +1,6 @@
 import crypto from "crypto";
 import { eq } from "drizzle-orm";
-import { db } from "./db";
+import { getDb } from "./db";
 import { users } from "../drizzle/schema";
 
 /**
@@ -64,6 +64,11 @@ export async function registerUser(
     throw new Error("Password must be at least 8 characters long");
   }
 
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database connection not available");
+  }
+
   // Check if user already exists
   const existingUser = await db
     .select()
@@ -80,7 +85,7 @@ export async function registerUser(
 
   // Create user
   const userId = generateUserId();
-  const newUser = await db.insert(users).values({
+  await db.insert(users).values({
     id: userId,
     email,
     name: name || email.split("@")[0], // Use part of email as default name
@@ -103,6 +108,11 @@ export async function loginUser(
   email: string,
   password: string
 ): Promise<{ userId: string; email: string; name: string | null }> {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database connection not available");
+  }
+
   // Find user by email
   const userResult = await db
     .select()
@@ -143,6 +153,11 @@ export async function loginUser(
  * Get user by ID
  */
 export async function getUserById(userId: string) {
+  const db = await getDb();
+  if (!db) {
+    return null;
+  }
+
   const userResult = await db
     .select()
     .from(users)
@@ -173,6 +188,11 @@ export async function updatePassword(
     throw new Error("Password must be at least 8 characters long");
   }
 
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database connection not available");
+  }
+
   // Generate new salt and hash
   const salt = generateSalt();
   const passwordHash = hashPassword(newPassword, salt);
@@ -188,6 +208,11 @@ export async function updatePassword(
  * Delete user account
  */
 export async function deleteUser(userId: string): Promise<void> {
+  const db = await getDb();
+  if (!db) {
+    throw new Error("Database connection not available");
+  }
+
   await db.delete(users).where(eq(users.id, userId));
 }
 
