@@ -10,6 +10,10 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
+  define: {
+    'import.meta.env.VITE_OAUTH_PORTAL_URL': JSON.stringify('https://oauth.manus.im'),
+    'import.meta.env.VITE_APP_ID': JSON.stringify('german-phrase-game-app'),
+  },
   plugins,
   resolve: {
     alias: {
