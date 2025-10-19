@@ -8,8 +8,10 @@ import { int, mysqlEnum, mysqlTable, text, timestamp, varchar } from "drizzle-or
 export const users = mysqlTable("users", {
   id: varchar("id", { length: 64 }).primaryKey(),
   name: text("name"),
-  email: varchar("email", { length: 320 }),
-  loginMethod: varchar("loginMethod", { length: 64 }),
+  email: varchar("email", { length: 320 }).unique().notNull(),
+  passwordHash: varchar("passwordHash", { length: 255 }),
+  salt: varchar("salt", { length: 255 }),
+  loginMethod: varchar("loginMethod", { length: 64 }).default("email/password").notNull(),
   role: mysqlEnum("role", ["user", "admin"]).default("user").notNull(),
   createdAt: timestamp("createdAt").defaultNow(),
   lastSignedIn: timestamp("lastSignedIn").defaultNow(),
