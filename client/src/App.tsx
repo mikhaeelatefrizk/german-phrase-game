@@ -9,20 +9,20 @@ import { RegisterPage } from "./pages/Register";
 import { useAuth } from "./hooks/useAuth";
 import "./styles/loading.css";
 
-function ProtectedRoute({ component: Component, path }: { component: any; path: string }) {
-  const { isAuthenticated, isLoading } = useAuth();
+// function ProtectedRoute({ component: Component, path }: { component: any; path: string }) {
+//   const { isAuthenticated, isLoading } = useAuth();
 
-  if (isLoading) {
-    return <div className="loading-screen">Loading...</div>;
-  }
+//   if (isLoading) {
+//     return <div className="loading-screen">Loading...</div>;
+//   }
 
-  if (!isAuthenticated) {
-    window.location.href = "/login";
-    return null;
-  }
+//   if (!isAuthenticated) {
+//     window.location.href = "/login";
+//     return null;
+//   }
 
-  return <Route path={path} component={Component} />;
-}
+//   return <Route path={path} component={Component} />;
+// }
 
 function Router() {
   const { isAuthenticated, isLoading } = useAuth();
@@ -44,6 +44,7 @@ function Router() {
         <>
           <Route path="/" component={Home} />
           <Route path="/todays-work" component={TodaysWork} />
+          {/* <Route path="/components" component={ComponentShowcase} /> */}
           <Route path="/404" component={NotFound} />
           <Route component={NotFound} />
         </>
