@@ -8,12 +8,13 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
+    "outDir": "../dist",
     "baseUrl": ".",
     "paths": {
-      "@shared/*": ["./shared/*"]
+      "@shared/*": ["../shared/*"]
     }
   },
-  "include": ["server/**/*", "shared/**/*"],
-  "exclude": ["node_modules", "client"]
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
 }
 
